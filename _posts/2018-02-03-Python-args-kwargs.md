@@ -19,7 +19,9 @@ sitemap :
 
 두개 다 임의의 인자(몇개가 들어올지 모르는 인자)를 사용해야할 때 사용한다
 <!--미리보기-->
+
 ex> *args
+
 ``` python
 def print_everything(*args):
   for count, thing in enumerate(args):
