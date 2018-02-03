@@ -1,0 +1,29 @@
+# Gems
+plugins: [jekyll-paginate]
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+
+# Setup
+title:               Karll
+tagline:             '블로그'
+description:         '내블로그'
+url:                 https://kor-karll.github.io/
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:              KiKap Han
+  url:               https://www.facebook.com/kikab.han
+  email:             hankikab@naver.com
+
+github:
+  repo:              https://github.com/Kor-Karll
+
+disqus: karll
+
+# Custom vars
+version:             1.0.0
