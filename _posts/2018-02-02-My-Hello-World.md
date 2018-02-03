@@ -26,22 +26,22 @@ sitemap :
 
 사이즈 조절 안함
 
-![supermoon.jpg]({{ site.baseurl }}/images/posts/2018-2-2-My-Hello-World/supermoon.jpg)
+![supermoon.jpg]({{ site.baseurl }}/images/posts/2018-02-02-My-Hello-World/supermoon.jpg)
 
 ***
 
 사이즈 {:width="250px"}
 
-![supermoon.jpg]({{ site.baseurl }}/images/posts/2018-2-2-My-Hello-World/supermoon.jpg){:width="250px"}
+![supermoon.jpg]({{ site.baseurl }}/images/posts/2018-02-02-My-Hello-World/supermoon.jpg){:width="250px"}
 
 ***
 
 사이즈 {:width="300px" height="10px"}
 
-![supermoon.jpg]({{ site.baseurl }}/images/posts/2018-2-2-My-Hello-World/supermoon.jpg){:width="300px" height="10px"}
+![supermoon.jpg]({{ site.baseurl }}/images/posts/2018-02-02-My-Hello-World/supermoon.jpg){:width="300px" height="10px"}
 
 ***
 
 사이즈 {:width="300px"}
 
-![supermoon.jpg]({{ site.baseurl }}/images/posts/2018-2-2-My-Hello-World/supermoon.jpg){:width="300px"}
+![supermoon.jpg]({{ site.baseurl }}/images/posts/2018-02-02-My-Hello-World/supermoon.jpg){:width="300px"}
