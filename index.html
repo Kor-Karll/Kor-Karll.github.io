@@ -17,6 +17,9 @@ title: Home
     <div class="entry">
       {{ post.content | split:"<!--미리보기-->" | first }}
     </div>
+    <div>
+      <a href="{{ post.url }}">더 보기</a>
+    </div>
     {% include post_tags.html %}
   </div>
   {% endfor %}
