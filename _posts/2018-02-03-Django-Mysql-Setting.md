@@ -6,7 +6,7 @@ tags:
 - MariaDB
 - 설정
 - CentOS
-lastmod : 2018-02-02 15:10:00
+lastmod : 2018-02-03 16:10:00
 sitemap :
   changefreq : daily
   priority : 1.0
