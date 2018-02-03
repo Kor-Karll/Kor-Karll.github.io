@@ -73,7 +73,7 @@ permalink: /about/
 
 ***
 
-**제 추천미드와 비슷한 미드 추천받아요**
+<span style="color:#8b21c9"><b>제 추천미드와 비슷한 미드 추천받아요</b></span>
 
 
 
