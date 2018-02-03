@@ -1,0 +1,10 @@
+
+<div class="post-tags">
+    Category :
+    {% if post %}
+        {% assign category = post.category %}
+    {% else %}
+        {% assign category = page.category %}
+    {% endif %}
+    <a href="/{{ category }}">{{ category }}</a>
+</div>
