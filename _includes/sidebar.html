@@ -24,7 +24,8 @@
         {% endif %}
       {% endif %}
     {% endfor %}
-
+    
+    
     <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub</a>
 
   </nav>
@@ -34,4 +35,12 @@
       &copy; {{ site.time | date: '%Y' }}. All rights reserved.
     </p>
   </div>
+
+  <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          {% include svg-icons.html %}
+        </footer>
+      </div>
+    </div>
 </div>

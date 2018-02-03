@@ -25,5 +25,19 @@ github:
 
 disqus: karll
 
+footer-links:
+  dribbble:
+  email: hankikab@naver.com
+  facebook: kikab.han
+  flickr:
+  github: Kor-Karll
+  instagram: hankikap
+  linkedin:
+  pinterest:
+  rss: # just type anything here for a working RSS icon
+  twitter: #
+  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  youtube: # channel/<your_long_string> or user/<user-name>
+  googleplus: # anything in your profile username that comes after plus.google.com/
 # Custom vars
 version:             1.0.0
