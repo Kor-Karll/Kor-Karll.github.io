@@ -13,7 +13,9 @@ sitemap :
   priority : 1.0
 ---
 서버(CentOS)에 Django를 설치한후 MariaDB를 설정
+
 <!--미리보기-->
+
 ***
 
 PyMySQL 설치
