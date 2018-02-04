@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Python] 문법 %?
+title: "[Python] 문법 %?"
 category: Python
 tags:
 - Python

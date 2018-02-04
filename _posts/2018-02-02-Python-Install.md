@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Python] 파이썬 최신버전 설치하기(CentOS)
+title: "[Python] 파이썬 최신버전 설치하기(CentOS)"
 category: Python
 tags:
 - Python
