@@ -7,7 +7,7 @@ tags:
 - Transaction
 - 트랜잭션
 - PDO
-lastmod : 2018-02-03 16:10:00
+lastmod : 2018-02-05 15:40:00
 sitemap :
   changefreq : daily
   priority : 1.0
