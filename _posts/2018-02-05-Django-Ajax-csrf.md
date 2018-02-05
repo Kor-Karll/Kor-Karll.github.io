@@ -27,7 +27,7 @@ sitemap :
 
 ```javascript{% raw %}
 // Ajax를 쓰기 위해 html 에서 jquery를 로드한다
-<script src="js/jquery-2.2.3.min.js"></script>
+<script src="js/jquery-2.2.3.min.js" />
 
 // 보낼 데이터
 jsonObj = {}
