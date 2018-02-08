@@ -14,10 +14,6 @@ sitemap :
 
 ***
 
-미리보기
-
-<!--미리보기-->
-
 우분투 14.04 OS설치 후
 
 ```
@@ -26,6 +22,7 @@ $sudo apt-get update
 $sudo apt-get upgrade #실행해 최신버전 업데이트
 ```
 
+<!--미리보기-->
 
 * FTP 서버 설치
 
