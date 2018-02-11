@@ -130,5 +130,5 @@ PDO::ATTR_DEFAULT_FETCH_MODE: Set default fetch mode. Description of modes is av
 
 - PDO::ATTR_DEFAULT_FETCH_MODE 가져올 값에 대한 설정을 디폴트로 설정을 한다.
 
-
+출처 : [http://php.net/manual/kr/pdo.setattribute.php](http://php.net/manual/kr/pdo.setattribute.php)
 
