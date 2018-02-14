@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[PHP] Google Map API GeoCoding 사용하기"
-category: Django
+category: PHP
 tags:
 - PHP
 - GoogleAPI
