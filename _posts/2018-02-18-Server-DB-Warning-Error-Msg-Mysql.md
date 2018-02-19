@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Server] DB Warning 메세지"
-category: Django
+category: Server
 tags:
 - Server
 - MySQL
