@@ -15,13 +15,11 @@ sitemap :
 
 ***
 
-미리보기
-
-<!--미리보기-->
-
 - 우선 MariaDB 의 버전부터 확인한다. MariaDB 10.1.3 에서 추가되었다.
 
 - file_key_management plugin(파일를 키로 이용하게 해주는 플러그인)
+
+<!--미리보기-->
 
 ![1.jpg]({{ site.baseurl }}/images/posts/2018-02-23-DB-MariaDB-PlugIn-Encryption/1.jpg)
 
