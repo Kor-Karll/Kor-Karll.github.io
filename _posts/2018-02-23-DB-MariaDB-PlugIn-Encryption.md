@@ -21,7 +21,7 @@ sitemap :
 
 <!--미리보기-->
 
-![1.jpg]({{ site.baseurl }}/images/posts/2018-02-23-DB-MariaDB-PlugIn-Encryption/1.jpg)
+![1.JPG]({{ site.baseurl }}/images/posts/2018-02-23-DB-MariaDB-PlugIn-Encryption/1.JPG)
 
  * /etc/my.cnf.d/server.cnf 사용 예 :
 
@@ -61,7 +61,7 @@ openssl enc -aes-256-cbc -md sha1 -k secret -in keys.txt -out keys.enc
 
 (/etc/my.cnf.d/server.cnf/ 설정변수)
 
-![2.jpg]({{ site.baseurl }}/images/posts/2018-02-23-DB-MariaDB-PlugIn-Encryption/2.jpg)
+![2.JPG]({{ site.baseurl }}/images/posts/2018-02-23-DB-MariaDB-PlugIn-Encryption/2.JPG)
 
 
 * XtraDB 암호화를 사용한 my.cnf 예:
@@ -78,7 +78,7 @@ innodb-encryption-threads=4
 
 - 테이블 생성시 옵션 주기
 
-![3.jpg]({{ site.baseurl }}/images/posts/2018-02-23-DB-MariaDB-PlugIn-Encryption/3.jpg)
+![3.JPG]({{ site.baseurl }}/images/posts/2018-02-23-DB-MariaDB-PlugIn-Encryption/3.JPG)
 
 * 테이블 생성 예 :
 
