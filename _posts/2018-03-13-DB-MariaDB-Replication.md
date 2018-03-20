@@ -44,7 +44,7 @@ service mysql restart
 - 복제권한이 있는 replication_user 라는 계정생성
 
 ```
-GRANT REPLICATION SLAVE, REPLICATION CLIENT ON *.* TO 'replication_user'@'%' INDENTIFIED BY 'password';
+GRANT REPLICATION SLAVE, REPLICATION CLIENT ON *.* TO 'replication_user'@'%' IDENTIFIED BY 'password';
 ```
 
 - 운영중인 서버라면 DB에 락을 걸고 작업
