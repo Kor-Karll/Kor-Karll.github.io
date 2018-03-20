@@ -16,6 +16,8 @@ sitemap :
 
 mysqldump 는 SQL 포멧의 텍스트로 백업 생성
 
+<!--미리보기-->
+
 ### 형식
 
 ```
@@ -29,6 +31,7 @@ Dump completed on <date> <time>
 ```
 
 - 실패한다면 에러 메시지 출력됨
+
 
 ### 옵션
 
