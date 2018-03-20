@@ -5,7 +5,7 @@ category: Django
 tags:
 - tag1
 - tag2
-lastmod : 2018-02-03 16:10:00
+lastmod : 2018-03-03 16:10:00
 sitemap :
   changefreq : daily
   priority : 1.0
