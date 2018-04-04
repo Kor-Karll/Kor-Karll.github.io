@@ -1,12 +1,14 @@
 ---
 layout: post
-title: "[PHP] CodeIgniter 세션 및 보안"
+title: "[PHP] CodeIgniter 보안"
 category: PHP
 tags:
 - PHP
 - CodeIgniter
 - CI
 - Session
+- CSRF
+- XSS
 
 lastmod : 2018-03-15 16:10:00
 sitemap :
@@ -15,7 +17,7 @@ sitemap :
 ---
 
 ***
-오늘 알게된 CodeIgniter 내용들
+
 <!--미리보기-->
 ### CI 에서 자체적으로 제공하는 보안 기능
 
@@ -44,11 +46,56 @@ $this->input->post('testvalue', TRUE);
 
 * CSRF 방어
 
-```PHP
+    - config.php 설정 변경
 
-```
+    ```PHP
+    ../application/config/config.php
+    $config['csrf_protection'] = TRUE
+    # 사용함으로 바꿈
+    $config['csrf_token_name'] = 'csrf_token';
+    # csrf 토큰 이름을 지정한다
+    ```
 
-작성중
+    - 컨트롤러 및 뷰
+    ```PHP
+    // 컨트롤러
+    function __construct()
+    {
+        parent::__construct();
+        $this->load->helper('form');
+        # form 헬퍼를 로드한다
+    }
+
+
+    // 뷰
+    <?php
+        $attr = Array('class' => 'form-horizontal', 'id' => 'test_write');
+        echo form_open('test/write');
+        # 위와같이 from_open 함수를 쓰면
+        # <form class='form-horizontal' id='test_write' action=''>
+        #   <input type='hidden' name='csrf_token value='7b806c7db763cf0d95018b99e855a8ad'>
+        # 를 리턴 한다
+    ?>
+    <fieldset>
+        <legend>테스트</legend>
+        <div class='control-group'>
+            <label class='control-label' for='test_input'>입력값</label>
+            <div class='controls'>
+                <input type='text' id='test_input'>
+            </div>
+        </div>
+     .
+     .
+     .   
+    ```
+
+    - form_open을 사용하지 않을경우
+    ```PHP
+        $data['csrf_token'] = $this->security->get_csrf_hash();
+        $this->load->view('test/write', $data);
+        # get_csrf_hash 함수를 사용하여 csrf_token 값을 받아오고
+        # 뷰 영역으로 데이터를 넘겨 처리할수 있다
+    ```
 
 
 
