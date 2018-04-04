@@ -57,6 +57,7 @@ $this->input->post('testvalue', TRUE);
     ```
 
     - 컨트롤러 및 뷰
+    
     ```PHP
     // 컨트롤러
     function __construct()
@@ -65,7 +66,6 @@ $this->input->post('testvalue', TRUE);
         $this->load->helper('form');
         # form 헬퍼를 로드한다
     }
-
 
     // 뷰
     <?php
@@ -83,10 +83,7 @@ $this->input->post('testvalue', TRUE);
             <div class='controls'>
                 <input type='text' id='test_input'>
             </div>
-        </div>
-     .
-     .
-     .   
+        </div>     
     ```
 
     - form_open을 사용하지 않을경우
