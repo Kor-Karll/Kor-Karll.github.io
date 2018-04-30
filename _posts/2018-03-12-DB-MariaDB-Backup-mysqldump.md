@@ -21,7 +21,7 @@ mysqldump 는 SQL 포멧의 텍스트로 백업 생성
 ### 형식
 
 ```
-mysqldump --user=backupuser -p \ --all-databases > backup.sql
+mysqldump --user=backupuser -p --all-databases > backup.sql
 ```
 
 - 정상적으로 수행되고 나면 
