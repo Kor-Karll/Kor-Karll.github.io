@@ -86,4 +86,5 @@ APNS Host주소
 포트   : 2195 동일
 
 참고 : http://theeye.pe.kr/archives/1454
+
       http://wonzopein.com/34
