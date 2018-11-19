@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Karll
-`: Karll
+category: Karll
 ---
 
 {% for post in site.posts %}

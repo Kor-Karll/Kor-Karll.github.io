@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PHP 날짜,시간,시간대
-`: PHP
+category: PHP
 tags:
 - PHP
 - Timezone

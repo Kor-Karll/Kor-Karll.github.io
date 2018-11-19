@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PDO 멀티 쿼리 날리기
-`: PHP
+category: PHP
 tags:
 - PHP
 - PDO

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: DB
-`: DB
+category: DB
 ---
 
 {% for post in site.posts %}

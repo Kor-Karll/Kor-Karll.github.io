@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 제목
-`: Django
+category: Django
 tags:
 - tag1
 - tag2

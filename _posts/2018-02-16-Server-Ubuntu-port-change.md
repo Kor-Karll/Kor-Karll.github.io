@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Server] DB/FTP/SSH 포트변경"
-`: Server
+category: Server
 tags:
 - 서버
 - 포트변경

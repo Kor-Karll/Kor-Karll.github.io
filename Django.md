@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Django
-`: Django
+category: Django
 ---
 
 {% for post in site.posts %}

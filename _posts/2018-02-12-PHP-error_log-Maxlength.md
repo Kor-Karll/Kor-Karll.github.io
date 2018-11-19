@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[PHP] error_log 최대길이에 대하여.. "
-`: PHP
+category: PHP
 tags:
 - PHP
 - error_log

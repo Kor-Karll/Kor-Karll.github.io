@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Server] error_log (apache) 에서 array 값 찍기"
-`: Server
+category: Server
 tags:
 - Server
 - PHP

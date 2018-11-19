@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Server] Jmeter 지표 보기"
-`: Server
+category: Server
 tags:
 - Server
 - Jmeter

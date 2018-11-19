@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 서버구축 1번째 NUC[DN2820FYKH](ubuntu 14.04/php/ssh/ftp/mariadb)
-`: Server
+category: Server
 tags:
 - ubuntu
 - setting

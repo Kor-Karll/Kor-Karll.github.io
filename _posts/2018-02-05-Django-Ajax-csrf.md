@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Django Ajax 통신하기
-`: Django
+category: Django
 tags:
 - Django
 - Ajax

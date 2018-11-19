@@ -1,7 +1,7 @@
 ---
 layout: page
 title: PHP
-`: PHP
+category: PHP
 ---
 
 {% for post in site.posts %}

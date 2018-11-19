@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Server] 3번째 N4P92A/CentOS7/PHP7/MariaDB10.1.17/Apache/ssh/vsftp/iptables/Raid구성"
-`: Server
+category: Server
 tags:
 - 서버
 - Server

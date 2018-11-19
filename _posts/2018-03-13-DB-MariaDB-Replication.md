@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[MariaDB] 복제 Master-Slave 설정"
-`: DB
+category: DB
 tags:
 - MariaDB
 - 복제

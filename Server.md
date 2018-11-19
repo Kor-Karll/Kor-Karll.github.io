@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Server
-`: Server
+category: Server
 ---
 
 {% for post in site.posts %}

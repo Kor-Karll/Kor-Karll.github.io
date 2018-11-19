@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Python
-`: Python
+category: Python
 ---
 
 {% for post in site.posts %}

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: yum repository가 꼬였을 경우 yum 초기화하기
-`: Server
+category: Server
 tags:
 - CentOS
 - yum

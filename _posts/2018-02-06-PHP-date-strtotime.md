@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "PHP date 와 strtotime 사용기"
-`: PHP
+category: PHP
 tags:
 - PHP
 - date

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Server]IOS APNS 메시지 보내기를 위한 서버세팅"
-`: Server
+category: Server
 tags:
 - CentOS
 - APNS

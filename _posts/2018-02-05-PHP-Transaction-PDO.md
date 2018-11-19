@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PHP 트랜잭션
-`: PHP
+category: PHP
 tags:
 - PHP
 - Transaction

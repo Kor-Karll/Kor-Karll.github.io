@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[PHP] PDO::setAttribute 정리"
-`: PHP
+category: PHP
 tags:
 - PDO
 - 속성

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[PHP] CodeIgniter 보안"
-`: PHP
+category: PHP
 tags:
 - PHP
 - CodeIgniter
