@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[PHP] 배열 내 요소 제거하기"
-category: PHP
+`: PHP
 tags:
 - PHP
 - Array

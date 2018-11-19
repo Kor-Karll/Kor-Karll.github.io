@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Python] 문법 %?"
-category: Python
+`: Python
 tags:
 - Python
 - 문법

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[PHP] CI 세팅 관련"
-category: PHP
+`: PHP
 tags:
 - PHP
 - CodeIgniter

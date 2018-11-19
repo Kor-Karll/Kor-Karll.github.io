@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[PHP] 문자치환 / 유니코드 / 정규식"
-category: PHP
+`: PHP
 tags:
 - PHP
 - 문자열조작

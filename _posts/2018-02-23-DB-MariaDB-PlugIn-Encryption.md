@@ -1,7 +1,7 @@
 ---
 layout: post
 title: MariaDB 암호화 플러그인 적용(Data at Rest Encryption)
-category: DB
+`: DB
 tags:
 - MariaDB
 - 암호화

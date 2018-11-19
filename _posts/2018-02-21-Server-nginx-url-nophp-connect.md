@@ -1,7 +1,7 @@
 ---
 layout: post
 title: nginx 주소창에서 확장자 처리
-category: Server
+`: Server
 tags:
 - Server
 - nginx

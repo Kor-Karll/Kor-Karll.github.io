@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PHP 위험제거,유효성 검사,예외 처리
-category: PHP
+`: PHP
 tags:
 - PHP
 - 유효성 검사

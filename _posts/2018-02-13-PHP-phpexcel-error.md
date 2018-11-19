@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[PHP] phpexcel 'simplexml_load_string' 에러 "
-category: PHP
+`: PHP
 tags:
 - phpexcel
 - PHP

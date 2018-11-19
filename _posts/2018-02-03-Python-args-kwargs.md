@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Python] *args and **kwargs?"
-category: Python
+`: Python
 tags:
 - Python
 - args

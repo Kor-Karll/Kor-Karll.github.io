@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[DB] MariaDB mysqldump 활용"
-category: DB
+`: DB
 tags:
 - MariaDB
 - MySQL

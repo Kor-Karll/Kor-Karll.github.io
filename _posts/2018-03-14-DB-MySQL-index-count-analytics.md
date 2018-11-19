@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[MySQL] 운영 관리 및 최적화"
-category: DB
+`: DB
 tags:
 - MySQL
 - 튜닝

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Django mariadb 설정(CentOS)
-category: Django
+`: Django
 tags:
 - Django
 - MariaDB

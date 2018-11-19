@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Server] DB Warning 메세지"
-category: Server
+`: Server
 tags:
 - Server
 - MySQL

@@ -1,12 +1,12 @@
 ---
 layout: page
 title: PHP
-category: PHP
+`: PHP
 ---
 
 {% for post in site.posts %}
 
-{% if post.category == page.category %}
+{% if post.` == page.` %}
 
   <li>{{ post.date | date: "%Y / %m / %d" }} — <a href="{{ post.url }}">{{ post.title }}</a></li>
 
