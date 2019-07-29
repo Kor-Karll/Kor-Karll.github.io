@@ -16,13 +16,13 @@ sitemap :
 
 <!--미리보기-->
 
-```javascript
+
 #jquery // id 선택자
 .tutorial // class 선택자
 li // 엘리먼트 선택자
 #jquery, #MYSQL // 다중 선택자
 
-
+```javascript
 <ul id='list'>
     <li> HTML </li>
     <li> CSS </li>
