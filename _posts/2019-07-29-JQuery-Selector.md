@@ -25,7 +25,7 @@ li              // 엘리먼트 선택자 <br>
 
 <hr>
 
-```HTML
+```html
 <ul id='list'>
     <li> HTML </li>
     <li> CSS </li>
@@ -46,7 +46,7 @@ li              // 엘리먼트 선택자 <br>
 
 <hr>
 
-```HTML
+```html
 <ul id='attribute'>
     <li target='ABCD'>ABCD</li>
     <li target='BCDE'>BCDE</li>
@@ -68,7 +68,7 @@ li              // 엘리먼트 선택자 <br>
 
 <hr>
 
-```HTML
+```html
 <div>
     <input type='text' disabled='disabled' value='disabled'>
     <input type='text' value='enabled'>
