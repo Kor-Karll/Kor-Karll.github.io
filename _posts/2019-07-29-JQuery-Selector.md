@@ -23,7 +23,9 @@ li              // 엘리먼트 선택자 <br>
 #jquery, #MYSQL // 다중 선택자 <br>
 </pre>
 
-```javascript
+<hr>
+
+```HTML
 <ul id='list'>
     <li> HTML </li>
     <li> CSS </li>
@@ -42,7 +44,9 @@ li              // 엘리먼트 선택자 <br>
 #list li:last   // 마지막 인덱스 엘리먼트에 대한 선택자                 -> MYSQL
 </pre>
 
-```javascript
+<hr>
+
+```HTML
 <ul id='attribute'>
     <li target='ABCD'>ABCD</li>
     <li target='BCDE'>BCDE</li>
@@ -62,7 +66,9 @@ li              // 엘리먼트 선택자 <br>
 [target][id]        // 속성들이 존재하는 엘리먼트를 찾아내는 선택자                                 -> FGHI
 </pre>
 
-```javascript
+<hr>
+
+```HTML
 <div>
     <input type='text' disabled='disabled' value='disabled'>
     <input type='text' value='enabled'>
