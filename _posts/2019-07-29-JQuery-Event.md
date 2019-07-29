@@ -25,6 +25,7 @@ sitemap :
 
 <hr>
 * 예제1 bind, unbind, trigger 를 이용한 이벤트의 설치, 제거, 호출
+
 ```javascript
 <html>
   <head>
@@ -54,6 +55,7 @@ sitemap :
 
 <hr>
 * 예제2 이벤트 헬퍼
+
 ```javascript
 <html>
   <head>
@@ -83,6 +85,7 @@ sitemap :
 
 <hr>
 * 예제3 live 를 이용하면 존재하지 않는 엘리먼트에 대해서 이벤트를 설치할 수 있다
+
 ```javascript
 <html>
   <head>
