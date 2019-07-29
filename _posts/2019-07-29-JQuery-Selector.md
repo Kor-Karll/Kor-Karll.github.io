@@ -17,10 +17,10 @@ sitemap :
 <!--미리보기-->
 
 
-#jquery // id 선택자
-.tutorial // class 선택자
-li // 엘리먼트 선택자
-#jquery, #MYSQL // 다중 선택자
+#jquery // id 선택자 <br>
+.tutorial // class 선택자 <br>
+li // 엘리먼트 선택자 <br>
+#jquery, #MYSQL // 다중 선택자 <br>
 
 ```javascript
 <ul id='list'>
