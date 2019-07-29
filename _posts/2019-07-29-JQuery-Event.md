@@ -26,6 +26,31 @@ sitemap :
 <hr>
 * 예제1 bind, unbind, trigger 를 이용한 이벤트의 설치, 제거, 호출
 
+<html>
+  <head>
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js'></script>
+    <script type='text/javascript'>
+      function clickHandler(e){
+        alert('thank you')
+      }
+      $(document).bind('ready',function(){
+        $('#click_me1').bind('click', clickHandler);
+        $('#remove_event1').bind('',function(e){
+          $('#click_me1').unbind('click', clickHandler);
+        });
+        $('#trigger_event1').bind('click',function(e){
+          $('#click_me1').trigger('click');
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <input id='click_me1' type='button' value='click_me' />
+    <input id='remove_event1' type='button' value='unbind' />
+    <input id='trigger_event1' type='button' value='trigger' />
+  </body>
+</html>
+
 ```javascript
 <html>
   <head>
@@ -56,6 +81,31 @@ sitemap :
 <hr>
 * 예제2 이벤트 헬퍼
 
+<html>
+  <head>
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js'></script>
+    <script type='text/javascript'>
+      function clickHandler(e){
+        alert('thank you')
+      }
+      $(document).ready(function(){
+        $('#click_me2').bind('click', clickHandler);
+        $('#remove_event2').bind('',function(e){
+          $('#click_me2').unbind('click', clickHandler);
+        });
+        $('#trigger_event2').bind('click',function(e){
+          $('#click_me2').trigger('click');
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <input id='click_me2' type='button' value='click_me' />
+    <input id='remove_event2' type='button' value='unbind' />
+    <input id='trigger_event2' type='button' value='trigger' />
+  </body>
+</html>
+
 ```javascript
 <html>
   <head>
@@ -85,6 +135,31 @@ sitemap :
 
 <hr>
 * 예제3 live 를 이용하면 존재하지 않는 엘리먼트에 대해서 이벤트를 설치할 수 있다
+
+<html>
+  <head>
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js'></script>
+    <script type='text/javascript'>
+      function clickHandler(e){
+        alert('thank you')
+      }
+      $(document).ready(function(){
+        $('#click_me3').live('click', clickHandler);
+        $('#remove_event3').live('',function(e){
+          $('#click_me3').die('click', clickHandler);
+        });
+        $('#trigger_event3').live('click',function(e){
+          $('#click_me3').trigger('click');
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <input id='click_me3' type='button' value='click_me' />
+    <input id='remove_event3' type='button' value='unbind' />
+    <input id='trigger_event3' type='button' value='trigger' />
+  </body>
+</html>
 
 ```javascript
 <html>
