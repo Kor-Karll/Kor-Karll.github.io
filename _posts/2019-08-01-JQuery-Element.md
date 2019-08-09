@@ -132,11 +132,20 @@ sitemap :
   <script src='http://code.jquery.com/jquery-latest.js'></script>
 </head>
 <body>
-  <span>Span Text</span>
-  <strong>What about me?</strong>
-  <span>Another One</span>
+  <p>
+    Hello
+  </p>
+  how are
+  <p>
+    you?
+  </p>
+  <button>
+    Call remove() on paragraphs
+  </button>
 <script>
-  $('span').wrap('<div><div><p><em><b></b></em></p></div></div>');
+  $('button').click(function(){
+    $('p').remove();
+  });
 </script>
 </body>
 </html>
