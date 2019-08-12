@@ -16,25 +16,26 @@ sitemap :
 
 ***
 
-1. CodeIgniter 설치
+<!--미리보기-->
+## Step 1. CodeIgniter 설치
 
-2. composer 로 phpoffice 설치
+## Step 2. composer 로 phpoffice 설치
 
 ```
-$ composer require phpoffice/phpspreadsheet
+## $ composer require phpoffice/phpspreadsheet
 ```
 
 CodeIgniter 설치경로 / vendor /
 
 위 경로 아래로 설치됨
 
-3. application/config/config.php 파일 수정
+## Step 3. application/config/config.php 파일 수정
 
 ```php
 $config['composer_autoload'] = 'vendor/autoload.php';
 ```
 
-4. 예제 샘플 application/controller/Welcom.php
+## Step 4. 예제 샘플 application/controller/Welcom.php
 
 ```php
 defined('BASEPATH') OR exit('No direct script access allowed');
