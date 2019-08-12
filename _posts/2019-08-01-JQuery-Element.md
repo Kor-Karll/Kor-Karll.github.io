@@ -150,3 +150,65 @@ sitemap :
 </body>
 </html>
 ```
+
+### 치환(.replaceAll(), .replaceWith())
+
+``` html
+<!DOCTYPE html>
+<html>
+<head>
+  <script src='http://code.jquery.com/jquery-latest.js'></script>
+</head>
+<body>
+  <p> Hello </p>
+  <p> cruel </p>
+  <p> World </p>
+  <script>
+    $('<b> Paragraph. </b>').replaceAll('p');
+  </script>
+</body>
+</html>
+```
+
+### 클래스(.addClass(), .hasClass(), .removeClass(), .toggleClass())
+
+```  html
+<!DOCTYPE html>
+<html>
+<head>
+  <script src='http://code.jquery.com/jquery-latest.js'></script>
+  <style>
+    p{
+      margin: 4px;
+      font-size: 16px;
+      font-weight: bolder;
+      cursor: pointer;
+    }
+
+    .blue{
+      color: blue;
+    }
+
+    .highlight{
+      background: yellow;
+    }
+  </style>
+</head>
+<body>
+  <p class='blue'> Click to toggle </p>
+  <p class='blue highlight'> highlight </p>
+  <p class='blue'> on these </p>
+  <p class='blue'> paragraphs </p>
+  <script>
+    $('p').click(function(){
+      $(this).toggleClass('highlight');
+    });
+  </script>
+</body>
+</html>
+```
+
+### 속성제어(.attr(), .prop(), .removeAttr(), .removeProp(), .val())
+
+``` html
+```
