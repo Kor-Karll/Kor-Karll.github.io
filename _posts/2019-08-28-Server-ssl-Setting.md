@@ -77,3 +77,5 @@ server {
 ### 3. 웹서비스 동작상태 점검
 
 - 인터넷 주소창에 https://사용도메인 입력후 해당 페이지 정상작동여부 확인
+
+참고 : [Nginx : 인증서 적용 - HanbiroSSL](https://www.comodossl.co.kr/certificate/ssl-installation-guides/Nginx.aspx)
