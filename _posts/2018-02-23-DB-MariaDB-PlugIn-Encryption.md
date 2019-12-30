@@ -114,6 +114,8 @@ innodb-encrypt-tables = ON
 innodb-encrypt-log = 1
 ```
 
+* <span style='color:pink'>key.enc 파일 접근 권한 주의</span>
+
 * so 파일은 /usr/lib64/mysql/plugin/ 에 위치 (centos 7.0 기준)
 
 * 주의 : 테이블 암호화를 적용하면 DB 권한이 있는 유저로 접속했을때 암호화가 풀린상태로 보인다.( 실제로 달라진게 없는것처럼 보인다. 적용이 안된것처럼) 적용된 것을 확인하는 방법을 찾아보니
