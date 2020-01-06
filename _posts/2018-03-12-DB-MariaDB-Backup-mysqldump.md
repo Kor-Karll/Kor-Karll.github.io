@@ -40,3 +40,11 @@ Dump completed on <date> <time>
 - --add-drop-table : 위와 마찬가지로 테이블 재생성
 
 - --add-locks : 테이블 앞과 뒤에 LOCK TABLES 와 UNLOCK TABLES 커맨드를 추가한다. 테이블을 락시키면 복원속도가 빨라진다
+
+### 복구
+
+```
+mysql -h호스트 -u유저 -p패스워드 복구할데이터베이스 < 덤프파일
+
+ex> mysql -h dbhost2 -uroot -p1234 testdb < dump.sql
+```
