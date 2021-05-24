@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "IaaS CaaS PaaS"
+title: "[Server] IaaS CaaS PaaS"
 category: Server
 tags:
 - Server
@@ -22,7 +22,7 @@ sitemap :
 <!--미리보기-->
 
 ### IaaS(Infrastructure as a Service)
-- 가사 머신, 스토리지, 네트워크 같은 인프라를 필요한 만큼 적시에 제공하는 서비스로서 사용자는 이러한 인프라를 이용해 개발 환경을 구성한 후 애플리케이션을 배포한다. 가상 서버, 가상 네트워크, 가상 스토리지라 생각하면 이해하기 쉽다.
+- 가상 머신, 스토리지, 네트워크 같은 인프라를 필요한 만큼 적시에 제공하는 서비스로서 사용자는 이러한 인프라를 이용해 개발 환경을 구성한 후 애플리케이션을 배포한다. 가상 서버, 가상 네트워크, 가상 스토리지라 생각하면 이해하기 쉽다.
 - 예) AWS EC2, GCP Compute Engine, Azure VM
 
 ### CaaS(Container as a Service)
